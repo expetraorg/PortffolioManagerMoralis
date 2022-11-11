@@ -1,0 +1,711 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+  height:100%;width:100%;
+  font-size:100%;line-height:1;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+a{color:inherit;}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.backTransfer{
+	background-color: #A78EF4;
+
+	border-radius: 10px;
+	overflow-y: auto;
+	overflow-x: hidden;
+  max-height: 500px;
+}
+
+.Transfer{
+	font-size: 17px;
+}
+.App {
+  text-align: left;
+}
+
+.header-top__logo{
+	z-index: 1000;
+}
+.container{
+	max-width: 1340px;
+	margin: 0 auto;
+}
+.fix{
+	position: fixed;
+	background-color: #A78EF4;
+	width: 100%;
+	z-index: 5000;
+	border-radius: 0 0 10px 10px;
+}
+.header-top-top{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 1340px;
+	margin: 0 auto;
+}
+.header-top__right{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav1{
+	z-index: 1000;
+	display: flex;
+	justify-content: space-between;
+}
+.haeder-top__list{
+	z-index: 1000;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 10px;
+	margin-right: 30px;
+	cursor: pointer;
+}
+.btn{
+	cursor: pointer;
+	z-index: 1000;
+	border-radius: 10px;
+	color: white;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 25px;
+	padding: 8px 20px;
+	background-color: #63395F;
+	transition: 0.4s all;
+}
+
+.btn:hover{
+	border: 2px solid #63395F;
+	color: #63395F;
+	background-color: white;
+	transform: scale(1.05);
+}
+
+.header-top__main{
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.top-subtitle{
+	z-index: 1000;
+	margin-top: 202px;
+	font-size: 18px;
+	font-weight: 700;
+}
+.top-title{
+	z-index: 1000;
+	font-size: 90px;
+	font-weight: 700;
+	line-height: 87px;
+}
+.top-title__title{
+	z-index: 1000;
+	margin-top: 45px;
+	max-width: 429px;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.top-btn{
+	z-index: 1000;
+	margin-top: 30px;
+}
+.header{
+	position: relative;
+	height: 100vh;
+}
+
+.header_right{
+	bottom: 4px;
+	position: absolute;
+	right: 77px;
+	z-index: 50;
+	height: 527px;
+	width: 360px;
+}
+.header_blueback{
+	position: absolute;
+	top: 524px;
+	left: 859px;
+	z-index: 15;
+}
+.py{
+	position: absolute;
+	top: 165px;
+	left: 688px;
+}
+
+.back_st{
+	position: absolute;
+	top: 172px;
+	right: 70px;
+}
+.back_Al{
+	top: 300px;
+	left: 0;
+	position: absolute;
+}
+
+.st{
+	left: 77px;
+	bottom: 4px;
+	height: 514px;
+	width: 360px;
+	position: absolute;
+}
+.last{
+	position: absolute;
+	top: 104px;
+	left: 253px;
+}
+.dream_team{
+	margin-top: 70px;
+	padding-bottom: 50px;
+}
+.dream_team_h1{
+	margin-top: 100px;
+	font-size: 65px;
+	font-weight: 700;
+	line-height: 58px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+
+.right_side{
+	flex-wrap: wrap;
+}
+.h33{
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 22px;
+
+}
+
+.dream_team_subtitle{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 25px;
+	color: #404756;
+	width: 332px;
+	margin-left: 165px;
+	margin-top: 17px;
+}
+.sides{
+	display: flex;
+	justify-content: space-between;
+}
+.imgTeam:not(:last-child){
+	margin-right: -70px;
+}
+.imgTeam{
+	margin-top: 70px;
+	height: 288px;
+	width: 202px;
+}
+
+.imgIcon{
+	margin-left: 15px;
+	margin-right: 40px;
+	height: 76px;
+	width: 54px;
+}
+
+/* ------------------------------------------------------- */
+.InputWallet{
+	height: 100vh;
+}
+.InputTitle{
+	font-size: 65px;
+	font-weight: 700;
+	line-height: 58px;
+}
+.setText{
+	margin-top: 31px;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 16px;
+}
+.WalletInputs{
+	margin-top: 150px;
+}
+
+.inputText{
+	background-color: white;
+	border: 3px solid #A78EF4;
+	width: 100px;
+}
+.Input_Wallet_main{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 90px;
+}
+.InputWallet{
+	height: 500px;
+	width: 100%;
+	background-color: #FBF1E6;
+}
+.volna{
+	width: 100%;
+}
+
+.chain span{
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 16px;
+}
+
+.selection{
+	margin-top: 32px;
+}
+
+.setText input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #404756;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #A78EF4;
+  outline: none;
+  background: transparent;
+}
+.chain{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+select {
+  /* Reset */
+  appearance: none;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  /* Personalize */
+  width: 20em;
+  height: 3em;
+  padding: 0 4em 0 1em;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg)
+      no-repeat right 0.8em center / 1.4em, linear-gradient(to left, rgba(255, 255, 255, 0.3) 3em, rgba(255, 255, 255, 0.2) 3em);
+  color: #404756;
+  border-radius: 0.25em;
+  box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+option {
+	color: inherit;
+	background-color: #A78EF4;
+}
+
+select:focus {
+	outline: none;
+}
+select::-ms-expand {
+	display: none;
+}
+
+.brr{
+	margin-top: 80px;
+	height: 1px;
+	width: 100%;
+	background-color: #40475699;
+}
+.NativeTokens{
+
+}
+.functionsOur{
+	background-color: #FBF1E6;
+	min-height: 100vh;
+}
+
+.TokensCenter{
+	z-index: 2000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+.Rvolna{
+	width: 100%;
+}
+
+.left_side_L{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.mainFunctions_top{
+	display: flex;
+	justify-content: space-between;
+}
+.bottomFunction{
+	z-index: 2000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.NativeTokensMain{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+.ShowBalance{
+	background-color: white;
+	padding: 10px 15px;
+	border-radius: 9999px;
+	border: 3px solid #A78EF4;
+}
+
+.fetch{
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 18px;
+}
+
+.brrr{
+	margin-top: 20px;
+}
+.Tokens_main{
+	margin-top: 20px;
+	width: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.get{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.Portfolio{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.Total{
+	margin-top: 30px;
+}
+
+.totalbr{
+	margin-top: 30px;
+}
+
+.transfer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 0;
+}
+.Transfer{
+	width: 500px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.Transferh1{
+	margin-top: 20px;
+}
+
+.footerImg{
+	width: 100%;
+}
+
+.backFooter{
+	height: 441px;
+	width: 100%;
+	background-color:  #D3D4ED;
+}
+.backFooter{
+	position: relative;
+	z-index: 1;
+}
+.decorFooter{
+	position: absolute;
+	z-index: -5;
+	top: -20px;
+	left: 74px;
+}
+.h11{
+
+}
+.fotter{
+	width: 980px;
+	margin: 0 auto;
+}
+.footerList{
+	display: flex;
+
+}
+.navFooter{
+	display: flex;
+	justify-content: space-between;
+}
+.NavigationAdvance{
+	font-size: 18px;
+	font-weight: 700;
+	position: absolute;
+	right: 0;
+	bottom: -10px;
+}
+.headerOfFooter{
+
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+.brFooter{
+	margin-top: 26px;
+}
+.nav_list{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.footerList{
+	margin-top: 11px;
+}
+.nav_list1{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.nav_list1:not(:last-child){
+	margin-right: 42px;
+}
+.nav_list{
+	margin-top: 11px;
+}
+.fotter{
+	padding-top: 90px;
+}
+.brFooter1{
+	margin-top: 56px;
+}
+.Power{
+	display: flex;
+	margin-top: 12px;
+}
+.powered{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 25px;
+	color: #404756;
+}
+.powered:not(:last-child){
+	margin-right: 78px;
+}
+.dream_team_title{
+	text-align: center;
+	margin-left: 40px;
+}
+.left_side{
+	margin-top: 155px;
+}
+/* ---------- */
+.headerOFTransfer{
+
+	display: flex;
+
+}
+.TB_data{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
+}
+td{
+
+}
+.tables667{
+	display: flex;
+	flex-direction: column;
+}
+.xx{
+
+	display: flex;
+
+}
+.TB_data1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 70px;
+}
+
+.TbData1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 70px;
+}
+.TB_data2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80px;
+}
+
+.TbData2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80px;
+}
+
+.TbData{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
+}
+
+.TbData3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 390px;
+
+}
+.TB_data3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 390px;
+}
+
+.TB_data4{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 390px;
+}
+
+.TbData4{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 390px;
+}
+
+.poloska{
+	height: 40px;
+	background-color: #FBF1E6;
+	width: 1px;
+	margin: 0 10px;
+	margin-top: -2px;
+}
+.NFTSec{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}	
+.NFTSSection{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.h1_port{
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.ice_cream{
+	position: absolute;
+	top: 0;
+	left: 65px;
+	z-index: 0;
+	width: 400px;
+}
+.nftBTN{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.MonaLisa{
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 0;
+	width: 410px;
+}
+.spann{
+	margin-top: 20px;
+}
+.inputName{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5px;
+	padding: 5px 15px;
+	border-radius: 10px;
+	border: 1px solid #A78EF4;
+}
+.filter{
+	text-align: center;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.IdFilter{
+	text-align: center;
+	margin-top: 10px;
+
+}
+.TokenNftGEt{
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid #A78EF4;
+	padding: 5px 15px;
+}
+.IDFilter{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
