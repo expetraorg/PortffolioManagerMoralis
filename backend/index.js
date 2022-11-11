@@ -3,6 +3,7 @@ const express = require("express");
 const cors = require("cors");
 require("dotenv").config();
 
+MORALIS_API_KEY = "UeFCjVE90DnXtW7SXTbfo58o6BG2LwmK2h0xtAhAhVZTOLLC5HNMbKpy9uwWrDJD";
 const app = express();
 const port = process.env.PORT || 3000;
 
@@ -15,7 +16,7 @@ app.listen(port, () => {
 //GET AMOUNT AND VALUE OF NATIVE TOKENS
 
 app.get("/nativeBalance", async (req, res) => {
-  await Moralis.start({ apiKey: process.env.MORALIS_API_KEY });
+  await Moralis.start({ apiKey: MORALIS_API_KEY });
 
   try {
     const { address, chain } = req.query;
@@ -50,7 +51,7 @@ app.get("/nativeBalance", async (req, res) => {
 //GET AMOUNT AND VALUE OF ERC20 TOKENS
 
 app.get("/tokenBalances", async (req, res) => {
-  await Moralis.start({ apiKey: "UeFCjVE90DnXtW7SXTbfo58o6BG2LwmK2h0xtAhAhVZTOLLC5HNMbKpy9uwWrDJD"});//process.env.MORALIS_API_KEY });
+  await Moralis.start({ apiKey: MORALIS_API_KEY});//process.env.MORALIS_API_KEY });
 
   try {
     const { address, chain } = req.query;
@@ -89,7 +90,7 @@ app.get("/tokenBalances", async (req, res) => {
 //GET Users NFT's
 
 app.get("/nftBalance", async (req, res) => {
-  await Moralis.start({ apiKey: process.env.MORALIS_API_KEY });
+  await Moralis.start({ apiKey: MORALIS_API_KEY });
 
   try {
     const { address, chain } = req.query;
@@ -110,7 +111,7 @@ app.get("/nftBalance", async (req, res) => {
 //GET USERS TOKEN TRANSFERS
 
 app.get("/tokenTransfers", async (req, res) => {
-  await Moralis.start({ apiKey: process.env.MORALIS_API_KEY });
+  await Moralis.start({ apiKey: MORALIS_API_KEY });
 
   try {
     const { address, chain } = req.query;
