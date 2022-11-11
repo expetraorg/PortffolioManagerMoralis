@@ -4,7 +4,7 @@ import axios from "axios";
 function TransferHistory({ chain, wallet, transfers, setTransfers }) {
 
   async function getTokenTransfers() {
-    const response = await axios.get("http://localhost:8081/tokenTransfers", {
+    const response = await axios.get("https://test-portfolio-jvhy.vercel.app/tokenTransfers", {
       params: {
         address: wallet,
         chain: chain,

@@ -8,7 +8,7 @@ function Nfts({chain, wallet, filteredNfts, setFilteredNfts, nfts, setNfts}) {
 
 
   async function getUserNfts() {
-    const response = await axios.get("http://localhost:8081/nftBalance", {
+    const response = await axios.get("https://test-portfolio-jvhy.vercel.app/nftBalance", {
       params: {
         address: wallet,
         chain: chain,
@@ -28,6 +28,8 @@ function Nfts({chain, wallet, filteredNfts, setFilteredNfts, nfts, setNfts}) {
           t[i].image = meta.image;
         } else {
           t[i].image = "https://ipfs.moralis.io:2053/ipfs/" + meta.image;
+          //t[i].image = "https://ipfs.io/ipfs/" + meta.image;
+
         }
       }
     }

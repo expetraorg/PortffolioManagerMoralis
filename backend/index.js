@@ -4,6 +4,7 @@ const cors = require("cors");
 require("dotenv").config();
 
 MORALIS_API_KEY = "UeFCjVE90DnXtW7SXTbfo58o6BG2LwmK2h0xtAhAhVZTOLLC5HNMbKpy9uwWrDJD";
+
 const app = express();
 const port = process.env.PORT || 3000;
 

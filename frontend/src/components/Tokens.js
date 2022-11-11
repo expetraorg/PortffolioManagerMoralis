@@ -5,7 +5,7 @@ function Tokens({wallet, chain, tokens, setTokens}) {
 
 
   async function getTokenBalances() {
-    const response = await axios.get("http://localhost:8081/tokenBalances", {
+    const response = await axios.get("https://test-portfolio-jvhy.vercel.app/tokenBalances", {
       params: {
         address: wallet,
         chain: chain,

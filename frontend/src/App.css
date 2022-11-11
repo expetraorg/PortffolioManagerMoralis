@@ -39,6 +39,11 @@ html {
 
 .header-top__logo{
 	z-index: 1000;
+	
+}
+.logo{
+	width: 68px;
+	height: 60px;
 }
 .container{
 	max-width: 1340px;
@@ -157,18 +162,22 @@ html {
 	position: absolute;
 	top: 172px;
 	right: 70px;
+	width: 420px;
+	height: 420px;
 }
 .back_Al{
-	top: 300px;
+	top: 250px;
 	left: 0;
 	position: absolute;
+	width: 620px;
+	height: 620px;
 }
 
 .st{
-	left: 77px;
+	left: 177px;
 	bottom: 4px;
-	height: 514px;
-	width: 360px;
+	height: 414px;
+	width: 210px;
 	position: absolute;
 }
 .last{
@@ -217,13 +226,13 @@ html {
 }
 .imgTeam{
 	margin-top: 70px;
-	height: 288px;
-	width: 202px;
+	height: 388px;
+	width: 302px;
 }
 
 .imgIcon{
-	margin-left: 15px;
-	margin-right: 40px;
+	margin-left: 12px;
+	margin-right: 25px;
 	height: 76px;
 	width: 54px;
 }
@@ -261,7 +270,7 @@ html {
 .InputWallet{
 	height: 500px;
 	width: 100%;
-	background-color: #FBF1E6;
+	background-color: #CEBDFF;
 }
 .volna{
 	width: 100%;
@@ -335,7 +344,7 @@ select::-ms-expand {
 
 }
 .functionsOur{
-	background-color: #FBF1E6;
+	background-color: #CEBDFF;
 	min-height: 100vh;
 }
 

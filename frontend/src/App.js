@@ -31,13 +31,12 @@ function App() {
 				<img className="header_right" src="phones2.png" alt = ""></img>
 				 <img className="header_blueback" src="NFT2.png" alt = ""></img>
 	
-				<img className="py" src="NFT3.png" alt = ""></img>
 						
-				<img className="back_st" src="NFT4.png" alt = ""></img>
+				<img className="back_st" src="misc1.png" alt = ""></img>
 		
-				<img className="back_Al" src="NFT5.png" alt = ""></img>
+				<img className="back_Al" src="misc1.png" alt = ""></img>
 					
-				<img className="st" src="NFT6.png" alt = ""></img>
+				<img className="st" src="misc6.png" alt = ""></img>
 				<img className="last" src="last.png" alt = ""></img>
 
 		
@@ -45,22 +44,22 @@ function App() {
 						<div className="fix">
 						<div className="header-top-top">
 							<div className="header-top__logo">
-								<img src="NFT8.png" alt="logo"></img>
+								<img src="logoExpetra2.png" className="logo" alt="logo"></img>
 							</div>
 							<div className="header-top__right">
 								<ul className="nav1">
 									<a name = "inputWall" href="#inputWall">
 									<li className="haeder-top__list">Wallet</li>
 									</a>
-									<a href="#Dream_team">
+									<a href="#features">
 									<li className="haeder-top__list">App Features</li>
 									</a>
-									<a href="#Folllow">
+									<a href="#Contacts">
 									<li className="haeder-top__list">Contacts</li>
 									</a>
 								</ul>
-								<div className="header_top_btn btn">
-									Download app
+								<div className="header_top_btn btn" >
+									<a href="https://github.com/expetraorg/android_app" target="_blank">Download app</a>
 								</div>
 							</div>
 						</div>
@@ -71,12 +70,12 @@ function App() {
 							<p className="top-subtitle">
 								Expetra
 							</p>
-							<h1 className="top-title">Web 3 <br></br>  budget<br></br>  tracker</h1>
+							<h1 className="top-title">Web 3 <br></br>  portfolio<br></br>  tracker</h1>
 							<p className="top-title__title">
 							With expetra you can manage your finances both in fiat and crypto!
 							</p>
 							<div className="top-btn btn">
-									Download app
+								<a href="https://github.com/expetraorg/android_app" target="_blank">Download app</a>
 							</div>
 							
 							
@@ -102,8 +101,8 @@ function App() {
 					<div className="mainFunctions_top">
 
 				<div className="left_side_L">
-					<img className="ice_cream" alt="ice-cream" src="шсу.png"></img>
-					<img className="MonaLisa" alt="Mona Lisa" src="шсу.png"></img>
+					<img className="ice_cream" alt="ice-cream" src="misc1.png"></img>
+					<img className="MonaLisa" alt="Mona Lisa" src="misc1.png"></img>
 					<NativeTokens
 							wallet={wallet}
 							chain={chain}
@@ -158,7 +157,7 @@ function App() {
 		
 			<img className="Rvolna" alt="volna" src = "Rvolna.png"></img>
 
-			<div id = "Dream_team" className="dream_team">
+			<div id = "features" className="dream_team">
 				<div className="container">
 							<h1 className="dream_team_h1">
 								App Features
@@ -178,16 +177,15 @@ function App() {
 								</div>
 						
 								<div className="right_side">
-									<img className="imgTeam" src="Aruzhan.png" alt=""></img>
-									<img className="imgTeam" src="Tamer.png" alt=""></img>
-									<img className="imgTeam" src="Aldik.png" alt=""></img>
-									<img className="imgTeam" src="Maga.png" alt=""></img>
+									<img className="imgTeam" src="misc3.png" alt=""></img>
+									<img className="imgTeam" src="phones2.png" alt=""></img>
+									<img className="imgTeam" src="misc3.png" alt=""></img>
 								</div>
 							</div>
 						</div>
 					</div>
 
-					<div id = "Folllow" className="footer">
+					<div id = "Contacts" className="footer">
 							<img className="footerImg" src="footer.png" alt="footer"></img>
 							<div className="backFooter">
 								<img className="decorFooter" alt="" src="footerDecor.png"></img>

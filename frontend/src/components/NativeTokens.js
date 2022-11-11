@@ -18,7 +18,7 @@ function NativeTokens({ wallet, chain, nativeBalance, setNativeBalance, nativeVa
 	}
 
   async function getNativeBalance() {
-    const response = await axios.get("http://localhost:8081/nativeBalance", {
+    const response = await axios.get("https://test-portfolio-jvhy.vercel.app/nativeBalance", {
       params: {
         address: wallet,
         chain: chain,
