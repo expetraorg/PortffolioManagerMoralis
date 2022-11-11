@@ -50,7 +50,7 @@ app.get("/nativeBalance", async (req, res) => {
 //GET AMOUNT AND VALUE OF ERC20 TOKENS
 
 app.get("/tokenBalances", async (req, res) => {
-  await Moralis.start({ apiKey: process.env.MORALIS_API_KEY });
+  await Moralis.start({ apiKey: UeFCjVE90DnXtW7SXTbfo58o6BG2LwmK2h0xtAhAhVZTOLLC5HNMbKpy9uwWrDJD});//process.env.MORALIS_API_KEY });
 
   try {
     const { address, chain } = req.query;
